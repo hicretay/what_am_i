@@ -4,7 +4,7 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 class GoogleAds {
   InterstitialAd? interstitialAd;
 
-  final adUnitId = 'ca-app-pub-3835201968151360/3848813658';
+  final adUnitId = 'ca-app-pub-test';
 
   /// Loads an interstitial ad.
   void loadInterstitalAd() {
