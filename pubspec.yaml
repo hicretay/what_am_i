@@ -1,0 +1,41 @@
+name: what_am_i
+description: A charades game.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  audioplayers: null
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  google_mobile_ads: null
+  provider: ^6.0.5
+  sensors_plus: ^2.0.5
+  shared_preferences: ^2.1.0
+  slide_countdown: ^0.5.0
+  smooth_page_indicator: ^1.1.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/logos/
+    - assets/gifs/
+    - assets/sounds/
+
+  fonts:
+    - family: Ubuntu-Regular
+      fonts:
+        - asset: assets/fonts/Ubuntu-Regular.ttf
